@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.json",
+  "baseUrl": ".",
+  "compilerOptions": {
+    "types": [
+      "webpack-env",
+      "cypress"
+    ],
+  },
+  "include": [
+    "../../node_modules/cypress",
+    "./**/*.ts",
+  ],
+  "exclude": ["node_modules"]
+}
