@@ -2,6 +2,7 @@
   "name": "vue-numerical-input",
   "description": "Numerical input components for vue.",
   "version": "0.1.0",
+  "main": "./dist/vueNumericalInput.common",
   "files": [
     "dist/*",
     "src/*",
