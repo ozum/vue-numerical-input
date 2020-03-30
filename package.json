@@ -16,7 +16,9 @@
     "test:unit": "vue-cli-service test:unit",
     "test:e2e-custom-server": "vue-cli-service test:e2e --url http://localhost:8080 --headless",
     "test:e2e": "start-server-and-test serve http://localhost:8080 test:e2e-custom-server",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "prepublishOnly": "npm run build",
+    "release": "git push --follow-tags origin master && git push --tags && npm publish"
   },
   "dependencies": {
     "core-js": "^3.6.4",
