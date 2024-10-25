@@ -25,7 +25,7 @@
     "core-js": "^3.6.4",
     "intl-data": "^1.0.8",
     "round-to": "4.x",
-    "vue": "^2"
+    "vue": "^3"
   },
   "devDependencies": {
     "@types/jest": "^24.0.19",
